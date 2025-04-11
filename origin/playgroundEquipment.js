@@ -1,4 +1,4 @@
-import { connectDb } from "../db.js";
+import { connectDb } from "../server/db.js";
 
 const mongoose = await connectDb();
 
